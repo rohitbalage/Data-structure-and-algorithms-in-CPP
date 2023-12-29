@@ -7,3 +7,4 @@ This repository depitcs my practice for C++ DSA Prep.
 
 1. Array input, output, update
 2. Array & function pass by reference
+3. Linear Search 
