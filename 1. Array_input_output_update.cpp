@@ -15,9 +15,10 @@ cin >> numbers[i];
 }
 
 // output
+cout <<"the entered no. are: ";
 for (int i=0; i<n; i++)
 {
-   cout <<"the entered no. are: "<<numbers[i]<< endl; 
+   cout <<numbers[i]<< endl; 
 }
 
 //update
@@ -29,12 +30,25 @@ cin >> m >>r;
 
 numbers[m] = r;
 
-cout <<"the changed index is "<<m + " "<<"and the corresponding value is" <<numbers[m] + " = "<<r;
+cout <<"the changed index is "<<m<<"and the corresponding value is" <<r;
 
-cout <<"Now the changed numbers index would look like:";
+cout <<" \n  the changed numbers index array would look like: \n";
 
-for(int i=0; i<=5; i++)
+for(int i=0; i<n; i++)
 {
     cout <<numbers[i] <<endl;
 }
+
+// For non initialize array
+
+cout <<"\n Here I tried to print the garbage value by increasing running the loop more than the size of array: it will print the rest of the values as garbage \n";
+
+for(int i=0; i<10; i++)
+{
+ cout << numbers[i] <<endl;
+    
+}
+
+cout <<"\n here the point is to make you understand that the non-initialize values are zero: if we would have declared the array size to numbers[100]";
+
 }
