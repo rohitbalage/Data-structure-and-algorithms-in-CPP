@@ -49,7 +49,7 @@
 <details>
   <summary><b>Character arrayys and Strings</b></summary>
   
-  ### Character arrays and strings
+  # Character arrays and strings
   
   1. Input and output char arrays
   2. input output using cin.get
@@ -57,5 +57,6 @@
   4. cingetline function
   5. cingetline read paragraph
   6. shortest path problem
+  7. string, Copy, Compare, Concat function
 
 </details>
