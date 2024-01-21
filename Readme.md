@@ -60,3 +60,41 @@
   7. string, Copy, Compare, Concat function
 
 </details>
+
+<details>
+  <summary><b>2D arrays</b></summary>
+  
+  # 2D Arrays
+  
+  1. 2D Arrays basics
+  2. 2D char arrays
+  3. spiral print
+  4. problem wave print
+  5. stair case searcg
+  6. problem mango trees
+
+</details>
+
+<details>
+  <summary><b>Pointer and Dynamic memory</b></summary>
+  
+  # Character arrays and strings
+  
+  1. adderess of operator
+  2. pointers
+  3. dereference
+  4. pass by reference
+  5. pass by reference pointers
+  6. dynamic memory allocations
+  7. 2D dynamic array
+
+</details>
+
+<details>
+  <summary><b>Vector data structure</b></summary>
+  
+  # Character arrays and strings
+  
+  1. vector
+
+</details>
