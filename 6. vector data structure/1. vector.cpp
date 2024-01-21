@@ -14,4 +14,17 @@ by the container.
 2. Use?  -----> problems
 
 
+if vector = {1,2,3,4} and you want to add 5.
+
+so now new vector is created with new memory location and old one get deleted.
+
+vector2 = { 1,2,3,4,5}
+
+and it will do the same doubling itself when you add a new element.
+
+complexity of push-back(data): O(1)
+
+but in some cases = O(n)
+
+
 */
