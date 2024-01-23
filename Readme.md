@@ -98,3 +98,13 @@
   1. vector
 
 </details>
+
+<details>
+  <summary><b>Bit Manipulation</b></summary>
+  
+  # Character arrays and strings
+  
+  1. Bitwise Operators
+  2. Left shift & Right sift
+
+</details>
