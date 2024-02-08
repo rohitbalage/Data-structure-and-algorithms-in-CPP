@@ -23,15 +23,18 @@ return  a * power (a ,n-1);
 
 int fastPower(int a, int n)
 {
-  if( n=0)
+  if( n==0)
   {
     return 1;
   }  
 int subProb = fastPower(a, n/2);
 int subProbsq = subProb*subProb;
+
+// check if n is odd: 
+
   if(n&1)
   {
-    return a * subProbSq;
+    return a * subProbsq;
   }
   return subProbsq;
 }
@@ -41,6 +44,6 @@ int main()
   int a, n;
   cin >> a>>n;
   cout << power(a,n)<< endl;
-   cout << fastPower(a,n)<< endl;
+   cout << fastPower(a,n)<< endl; // fast power optimized
   return 0;
 }
