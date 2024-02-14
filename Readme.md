@@ -132,7 +132,7 @@
 <details>
   <summary><b>Recursion basics</b></summary>
 
- # Bit manipulation
+ # Recursion basics
   
   1. recursion 
   2. factorial 
