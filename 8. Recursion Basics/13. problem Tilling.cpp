@@ -1,21 +1,19 @@
 /*
 Tiling Problem!
-You are given N tiles of size 1 x M, There is a floor of size N x M which you have to cover with tiles. 
-Find the number of ways the floor can be completely covered if you can place the tiles in both horizontal 
-and vertical manner.
+Given a "4 x n" board and tiles of size "4 x1". count the number
+of ways to tile the given board using the 4 x1 tiles.
 
-Input Format:
+a tile can either be places horizontally i.e. as 1 x 4 tile or
+vertically i.e.e  as 4 x 1 tile.
 
-In the function, two integers N and M are passed.
+input N;
 
-Output Format:
+output no of ways
 
-Return a single integer denoting the number of ways.
 
-Sample Input:
-4 3
 
-Sample Output:
-3
+ 4|--------------------------|
+  |---------------------------|
+              n
 */
 
