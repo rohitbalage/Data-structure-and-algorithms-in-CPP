@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+
+/*
+backtracking code ~ you will always find after the function call
+*/
+
 void printArray(int *arr, int n)
 {
       // print our array

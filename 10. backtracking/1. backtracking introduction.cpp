@@ -7,7 +7,7 @@ Backtracking: algorithmic technique in which we recursively try to build the sol
 
 
 Problem types:
-Decision problem: check for feasible solution
+Decision problem: check for feasible solution 
 Optimization problem: find best solutions
 Enumeraion problem:  find all solutions
 
